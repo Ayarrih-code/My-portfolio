@@ -1,0 +1,153 @@
+/* styles.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.links ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    display: flex;
+
+
+}
+
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+
+header {
+    background-color: #000;
+    border: 2px solid rgba(54, 54, 53, 0.735);
+    /* Black background */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #000;
+    color:  #a9d18e;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Portfolio Gallery Section */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.project-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card h2 {
+    color:  #a9d18e;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #aaa;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.view-project {
+    color: #000;
+    background-color:  #a9d18e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.view-project:hover {
+    background-color: #d8f4d8;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    margin-top: 100px;
+
+}
+
+.icons ul img {
+    width: 40px;
+    height: 25px;
+}
+.h1 {
+    margin: 30px;
+    font-size: larger;
+}
+.name {
+    margin:30px ;
+}
+footer {
+    background-color:white;
+    color: #000;
+    border-top: 5px solid  #a9d18e;
+}
